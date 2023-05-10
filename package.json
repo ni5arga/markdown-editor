@@ -23,7 +23,7 @@
       "react-scripts": "4.0.3"
     },
     "engines": {
-      "node": ">=1.0.0"
+      "node": ">=10.0.0"
     },
     "browserslist": [
       "last 2 versions"
@@ -49,4 +49,3 @@
     "author": "Nisarga Adhikary",
     "license": "MIT"
   }
-  
