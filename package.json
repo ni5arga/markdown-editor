@@ -1,0 +1,52 @@
+{
+    "name": "markdown-editor",
+    "version": "1.0.0",
+    "description": "Markdown editor with live preview and save functionality",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "vercel-dev": "vercel dev"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.4.1",
+      "@emotion/styled": "^11.3.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-icons": "^4.3.1",
+      "react-markdown": "^7.0.1",
+      "remark": "^14.0.0",
+      "vercel-serverless-api": "^1.1.0"
+    },
+    "devDependencies": {
+      "react-scripts": "4.0.3"
+    },
+    "engines": {
+      "node": ">=10.0.0"
+    },
+    "browserslist": [
+      "last 2 versions"
+    ],
+    "vercel": {
+      "functions": {
+        "post": {
+          "memory": 128,
+          "maxDuration": 10
+        }
+      }
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ni5arga/markdown-editor"
+    },
+    "keywords": [
+      "markdown",
+      "editor",
+      "react",
+      "vercel"
+    ],
+    "author": "Nisarga Adhikary",
+    "license": "MIT"
+  }
+  
